@@ -1,7 +1,5 @@
 # It will be the definition of our model, as a Scikit-Learn pipeline
 
-
-
 from sklearn.linear_model import ElasticNet
 from sklearn.pipeline import Pipeline
 

@@ -19,7 +19,6 @@ def fetch_csv_data(url, separator):
     except Exception as e:
         raise Exception(f'Error while fetching data at url {url}: {e}')
 
-
 def build_train_test_sets(data, label_col, train_size):
     """
     A function to split the data into training and test sets.
